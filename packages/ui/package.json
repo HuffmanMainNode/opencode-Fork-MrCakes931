@@ -118,7 +118,7 @@
     "@solid-primitives/event-listener": "catalog:",
     "@solid-primitives/resize-observer": "catalog:",
     "fuzzysort": "catalog:",
-    "katex": "0.16.47",
+    "katex": "0.18.2",
     "marked": "catalog:",
     "motion": "12.34.5",
     "remeda": "catalog:",
