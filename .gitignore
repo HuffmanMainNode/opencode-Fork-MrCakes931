@@ -3,7 +3,9 @@ node_modules
 .worktrees
 .sst
 .env
-.env.local
+.env.*
+!.env.example
+!.env.sample
 .idea
 .vscode
 .codex
@@ -37,3 +39,20 @@ logs/
 *.bun-build
 tsconfig.tsbuildinfo
 /artifacts/
+
+# Wrangler local state and generated databases
+.wrangler/
+**/.wrangler/
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Local credential/key material
+*.pem
+*.p12
+*.pfx
+*.key
+credentials.json
+client_secret*.json
+token.json
