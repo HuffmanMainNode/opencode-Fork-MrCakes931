@@ -23,7 +23,7 @@
     "@types/bun": "catalog:",
     "pagefind": "1.5.2",
     "typescript": "catalog:",
-    "wrangler": "4.110.0"
+    "wrangler": "4.156.0"
   },
   "engines": {
     "node": ">=22.12"
